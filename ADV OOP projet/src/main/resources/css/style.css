@@ -1,0 +1,230 @@
+/* Clean, Professional & Readable JavaFX Styling */
+
+/* Root Defaults */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: #F8FAFC;
+    -fx-text-fill: #1E293B;
+}
+
+/* Header Banner */
+.header-banner {
+    -fx-background-color: #1E3A8A;
+    -fx-padding: 15px 20px;
+    -fx-alignment: center-left;
+}
+
+.header-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.header-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #93C5FD;
+}
+
+/* Sidebar / Navigation Bar */
+.sidebar {
+    -fx-background-color: #0F172A;
+    -fx-padding: 20px 10px;
+    -fx-pref-width: 220px;
+    -fx-spacing: 10px;
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #94A3B8;
+    -fx-font-size: 14px;
+    -fx-alignment: center-left;
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: #1E293B;
+    -fx-text-fill: #FFFFFF;
+}
+
+.sidebar-button:active, .sidebar-button-active {
+    -fx-background-color: #2563EB;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+/* Card Container */
+.card {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E2E8F0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 20px;
+}
+
+.card-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0F172A;
+}
+
+/* Form Controls */
+.text-field, .password-field, .combo-box, .date-picker {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #CBD5E1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused, .password-field:focused, .combo-box:focused, .date-picker:focused {
+    -fx-border-color: #2563EB;
+    -fx-border-width: 1.5px;
+}
+
+/* Buttons */
+.button-primary {
+    -fx-background-color: #2563EB;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.button-primary:hover {
+    -fx-background-color: #1D4ED8;
+}
+
+.button-success {
+    -fx-background-color: #059669;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.button-success:hover {
+    -fx-background-color: #047857;
+}
+
+.button-danger {
+    -fx-background-color: #DC2626;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.button-danger:hover {
+    -fx-background-color: #B91C1C;
+}
+
+.button-secondary {
+    -fx-background-color: #64748B;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #475569;
+}
+
+/* TableView */
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E2E8F0;
+    -fx-border-radius: 6px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #F1F5F9;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: #334155;
+    -fx-padding: 10px;
+}
+
+.table-row-cell {
+    -fx-border-color: transparent transparent #F1F5F9 transparent;
+    -fx-padding: 4px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #F8FAFC;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #DBEAFE;
+    -fx-text-fill: #1E3A8A;
+}
+
+/* Status Badges */
+.badge-pending {
+    -fx-background-color: #FEF3C7;
+    -fx-text-fill: #92400E;
+    -fx-padding: 4px 8px;
+    -fx-background-radius: 12px;
+    -fx-font-weight: bold;
+}
+
+.badge-accepted {
+    -fx-background-color: #D1FAE5;
+    -fx-text-fill: #065F46;
+    -fx-padding: 4px 8px;
+    -fx-background-radius: 12px;
+    -fx-font-weight: bold;
+}
+
+.badge-rejected {
+    -fx-background-color: #FEE2E2;
+    -fx-text-fill: #991B1B;
+    -fx-padding: 4px 8px;
+    -fx-background-radius: 12px;
+    -fx-font-weight: bold;
+}
+
+.badge-paid {
+    -fx-background-color: #E0F2FE;
+    -fx-text-fill: #075985;
+    -fx-padding: 4px 8px;
+    -fx-background-radius: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Metric / Stat Card */
+.stat-card {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E2E8F0;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 15px 20px;
+    -fx-min-width: 180px;
+}
+
+.stat-value {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2563EB;
+}
+
+.stat-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #64748B;
+}
